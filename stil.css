@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    overflow: hidden;
+    margin: 0px 25%;
+}
+.navbar a {
+    flex: 1;
+    color: #333; 
+    text-align: center;
+    padding: 10px 12px; 
+    text-decoration: none;
+    font-size: 16px;
+}
+.navbar a.logo {
+    flex: 0 0 auto; 
+    padding: 0; 
+}
+.navbar a:hover {
+    background-color: #ddd; 
+    color: black;
+}
+img.logo {
+    height: 40px; 
+    margin: 5px 10px; 
+}
+.logo-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: lightgrey;
+    height: 40px;
+    width: 100%;
+    color: black;
+}
+footer > p {
+margin: auto;
+}
+
+@media all and (max-width: 740px) {  
+    .navbar {
+        flex-direction: column;
+    }
+  
+    .navbar a { 
+        text-align: center; 
+        padding: 10px;
+    }
+  
+    .navbar li:last-of-type a {
+        border-bottom: none;
+    }
+    .vijesti {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+}
+    /*Unos*/
+    .mainbox {
+        width: 400px;
+        background-color: rgba(0, 0, 0, 0.5);
+        margin: 20px auto;
+        border-radius: 20px;
+        padding: 1%;
+        color: white;
+    }
+    h1.unos {
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+    }
+    /*clanak*/
+    div.clanak {
+        margin: auto 250px;
+    }
+    p.clanak {
+        color: gray;
+        text-align: center;
+    }
+    h1.clanak {
+        margin: 20px 150px;
+        text-align: center;
+    }
+    img.clanak {
+        width: 100%;
+        max-width: 600px;
+        display: block;
+        margin: 0 auto;
+    }
+    h2.clanak {
+        margin: 20px 15%;
+    }
+    p.clanak2 {
+        margin: 20px 15%;
+    }
+    .greska {
+        color: red;
+    }
+    /*Index*/
+    .vijesti {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+    .article {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+    .article img {
+        width: 100%;
+        height: auto;
+    }
+    .media_body {
+        padding: 15px;
+        flex: 1;
+    }
+    .title {
+        font-size: 18px;
+        margin: 0;
+    }
+    .title a {
+        text-decoration: none;
+        color: #333;
+    }
+    .mainbox3 {
+        margin: auto 15%;
+    }
+    hr.index {
+        width: 80px;
+        border: 2px solid black;
+        margin: 30px 0 0 0;
+    }
+    /*Category*/
+    .vijesti2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .title2 {
+        text-align: center;
+    }
+    .title2 a {
+        text-decoration: none;
+        color: #333;
+    }
